@@ -16,6 +16,7 @@ import javafx.stage.Stage;
  * Küsi kasutajalt sisendit kuidas soovid, pealselt, et teed seda JavaFXis.
  */
 
+/*
 public class Ristkulik extends Application {
     @Override
     public void start (Stage primaryStage ) throws Exception {
@@ -78,3 +79,4 @@ public class Ristkulik extends Application {
 
 }
 
+*/

@@ -12,6 +12,8 @@ import java.util.ArrayList;
  * Joonista ekraanile hunnik ristkülikuid, suvalistel positsioonidel. Ühe korra kastile klikates
  * muutub ta 2x väiksemaks. Teist korda klikates kaob ta sootuks.
  */
+
+/*
 public class PixelChaser extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -48,4 +50,5 @@ public class PixelChaser extends Application {
         }
 
     }
-}
+
+*/

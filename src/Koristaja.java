@@ -7,7 +7,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
 
-import java.util.ArrayList;
+
 
 /**
  * Loo JavaFXis koristaja mäng.
@@ -34,11 +34,12 @@ public class Koristaja extends Application {
         sonum.setRotate(10);
         pane.getChildren().add(sonum);
 
-        ArrayList <Circle> list= new ArrayList();
+
         for (int i = 0; i < 200; i++) {
             Circle circle= new Circle(Math.random()*300);
             circle.setTranslateX(Math.random()*500);//liigutab ringi allapoole
             circle.setTranslateY(Math.random()*500);//liigutab ringi kuljele
+
 
            circle.setOnMouseEntered(event -> {
                 circle.setVisible(false);

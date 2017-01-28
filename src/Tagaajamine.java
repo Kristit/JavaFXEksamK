@@ -16,6 +16,7 @@ import java.util.Random;
  * mitte klikist. Aga alustada võid muidugi klikist.
  */
 
+/*
     public class Tagaajamine  extends Application {
         @Override
         public void start (Stage primaryStage) throws Exception{
@@ -47,3 +48,4 @@ import java.util.Random;
     }
 
 
+*/

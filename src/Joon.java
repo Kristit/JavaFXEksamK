@@ -15,6 +15,7 @@ import javafx.stage.Stage;
  * Akna võime limiteerida 500x500 piksli peale.
  * Küsi kasutajalt sisendit kuidas soovid, pealselt, et teed seda JavaFXis.
  */
+/*
 public class Joon extends Application {
     @Override
     public void start (Stage primaryStage ) throws Exception {
@@ -68,5 +69,5 @@ public class Joon extends Application {
 
     }
 
-
+*/
 

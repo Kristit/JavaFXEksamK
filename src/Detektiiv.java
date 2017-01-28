@@ -8,11 +8,13 @@ import javafx.stage.Stage;
 
 import java.util.Random;
 
+
 /**
  * Tee JavaFXiga detektiivi mäng, kus kasutaja saab nähtamatuid ringe otsida.
  * 1. Ekraanil (näiteks 500x500) on suvalistes kohtades 3 ringi, mida näha ei ole.
  * 2. Hiirega ringile vastu minnes tuleb ring nähtavale.
  */
+/*
 public class Detektiiv extends Application{
     @Override
     public void start (Stage primaryStage) throws Exception{
@@ -56,3 +58,4 @@ public class Detektiiv extends Application{
         pane.getChildren().addAll(circle1, circle2, circle3);
     }
 }
+*/

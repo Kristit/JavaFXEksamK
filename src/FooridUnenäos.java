@@ -13,6 +13,8 @@ import javafx.stage.Stage;
  * Kui hiir ringile vastu läheb, muutub ring roheliseks.
  * Kordan - ring muudab värvi juba hiire puudutusest, mitte klikist.
  */
+
+/*
 public class FooridUnenäos extends Application {
     @Override
     public void start (Stage primaryStage) throws Exception {
@@ -81,3 +83,48 @@ public class FooridUnenäos extends Application {
 
     }
     }
+
+
+
+/*int radius;
+    int xCoordinate;
+    int yCoordinate;
+    Paint color;
+    StackPane stack;
+    Circle circle;
+
+
+
+
+        Stage primaryStage = new Stage();
+        stack = new StackPane();
+        circle = new Circle();
+
+        Scene scene = new Scene(stack, 500, 500);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+
+        generateCircles();
+
+
+public void generateCircles(){
+        for (int i = 0; i < 600 ; i++) {
+        radius = 10;
+        xCoordinate = (int) (Math.random() * 490-250);
+        yCoordinate = (int) (Math.random() * 490-250);
+        color = Color.RED;
+        Circle circle = new Circle(radius);
+        circle.setTranslateX(xCoordinate);
+        circle.setTranslateY(yCoordinate);
+        circle.setFill(color);
+
+        circle.setOnMouseEntered(event -> {
+        circle.setFill(Color.GREEN);
+        });
+
+        stack.getChildren().add(circle);
+
+        }
+        }
+        }
+        */
